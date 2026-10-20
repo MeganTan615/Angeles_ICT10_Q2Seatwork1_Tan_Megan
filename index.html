@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seatwork #1</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+  
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
+</head>
+
+<body>
+   
+    <div id="container">
+        <h1>Science Club Candidate Checker</h1>
+        <p>Enter your first name and last name to verify if you are a member.</p>
+        
+        <input type="text" id="first_name" class="form-control mb-3" placeholder="First Name">
+        <input type="text" id="last_name" class="form-control mb-3" placeholder="Last Name">
+        <button type="button" class="btn btn-primary" py-click="check_name">ENTER</button>
+    
+        <h4 class="mt-4">Result</h4>
+        <p id="output"></p>
+    </div>
+    
+    <py-script src="main.py"></py-script>
+
+</body>
+    
+</html>
